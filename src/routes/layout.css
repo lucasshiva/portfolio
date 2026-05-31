@@ -1,2 +1,25 @@
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
+
+/* Placeholder colors - generated from tweakcn.com */
+:root {
+  --color-background: #0c1221;
+  --color-foreground: #e2e8f0;
+  --color-primary: #818cf8;
+  --color-primary-foreground: #0f172a;
+  --color-muted: #152032;
+  --color-muted-foreground: #9ca3af;
+  --color-card: #1e293b;
+  --color-card-foreground: #e2e8f0;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-card: var(--color-card);
+  --color-card-foreground: var(--color-card-foreground);
+}

@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import Header from "$lib/components/Header.svelte";
+  import Hero from "$lib/components/hero/Hero.svelte";
+  import ScrollButton from "$lib/components/hero/ScrollButton.svelte";
+</script>
+
+<div id="app" class="bg-background text-foreground min-h-screen flex flex-col">
+  <div id="landing" class="flex flex-col min-h-screen justify-between items-center">
+    <Header />
+    <Hero />
+    <ScrollButton />
+  </div>
+</div>
