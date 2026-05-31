@@ -1,4 +1,5 @@
 <script>
+  import About from "$lib/components/about/About.svelte";
   import Header from "$lib/components/header/Header.svelte";
   import Hero from "$lib/components/hero/Hero.svelte";
   import ScrollButton from "$lib/components/hero/ScrollButton.svelte";
@@ -10,4 +11,6 @@
     <Hero />
     <ScrollButton />
   </div>
+
+  <About />
 </div>
