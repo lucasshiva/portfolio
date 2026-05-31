@@ -1,5 +1,5 @@
 <script>
-  import Header from "$lib/components/Header.svelte";
+  import Header from "$lib/components/header/Header.svelte";
   import Hero from "$lib/components/hero/Hero.svelte";
   import ScrollButton from "$lib/components/hero/ScrollButton.svelte";
 </script>
