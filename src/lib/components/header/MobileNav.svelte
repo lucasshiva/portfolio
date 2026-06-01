@@ -1,6 +1,8 @@
 <!-- MobileNav.svelte -->
 <script lang="ts">
   import { twMerge } from "tailwind-merge";
+  import IconMenu from "~icons/lucide/menu";
+  import IconClose from "~icons/lucide/x";
   import ResumeButton from "../common/ResumeButton.svelte";
   import NavLink from "./NavLink.svelte";
   import NavLogo from "./NavLogo.svelte";
@@ -24,29 +26,9 @@
       aria-label="Toggle menu"
       aria-expanded={open}>
       {#if open}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="22"
-          height="22"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          viewBox="0 0 24 24">
-          <path d="M18 6 6 18M6 6l12 12" />
-        </svg>
+        <IconClose />
       {:else}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="22"
-          height="22"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          viewBox="0 0 24 24">
-          <path d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
+        <IconMenu />
       {/if}
     </button>
   </div>
