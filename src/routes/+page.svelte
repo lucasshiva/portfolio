@@ -3,6 +3,7 @@
   import Header from "$lib/components/header/Header.svelte";
   import Hero from "$lib/components/hero/Hero.svelte";
   import ScrollButton from "$lib/components/hero/ScrollButton.svelte";
+  import Technologies from "$lib/components/technologies/Technologies.svelte";
 </script>
 
 <div id="app" class="bg-background text-foreground min-h-screen flex flex-col">
@@ -13,4 +14,5 @@
   </div>
 
   <About />
+  <Technologies />
 </div>

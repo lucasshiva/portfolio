@@ -55,6 +55,7 @@
   {#if open}
     <div class="flex flex-col px-8 sm:px-10 pb-6 gap-2">
       <NavLink href="#about" text="About" isMobile />
+      <NavLink href="#technologies" text="Technologies" isMobile />
       <NavLink href="#projects" text="Projects" isMobile />
       <NavLink href="#contact" text="Contact" isMobile />
       <div class="mt-2">

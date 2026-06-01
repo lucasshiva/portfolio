@@ -8,6 +8,7 @@ declare global {
     // interface PageState {}
     // interface Platform {}
   }
+  module "~icons/*";
 }
 
 export {};

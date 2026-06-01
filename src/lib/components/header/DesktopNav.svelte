@@ -21,6 +21,7 @@
   </div>
   <div class="flex justify-center gap-6 p-6 md:p-8">
     <NavLink href="#about" text="About" />
+    <NavLink href="#technologies" text="Technologies" />
     <NavLink href="#projects" text="Projects" />
     <NavLink href="#contact" text="Contact" />
   </div>
