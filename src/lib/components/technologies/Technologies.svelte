@@ -26,7 +26,9 @@
   ];
 </script>
 
-<section id="technologies" class="py-20 px-4 md:px-8 w-full bg-background text-foreground">
+<section
+  id="technologies"
+  class="py-20 md:py-26 lg:py-32 px-4 md:px-8 w-full bg-background text-foreground">
   <div class="max-w-6xl mx-auto flex flex-col gap-10 md:gap-20">
     <h2
       class="text-5xl md:text-6xl lg:text-[68px] text-center md:text-left leading-none mb-10 md:mb-5">
