@@ -73,7 +73,8 @@ export async function fetchPortfolioRepos(username: string, token?: string): Pro
         const project: Project = {
           title: repo.name,
           description: repo.description || "",
-          source: repo.homepage,
+          source: repo.html_url,
+          url: repo.homepage,
           imageUrl: await getImageUrl(username, repo.full_name, token),
           tags: repo.topics.filter((t: string) => !t.includes("portfolio")),
         };
