@@ -11,8 +11,8 @@
 
 <section id="projects" class="py-24 px-6 bg-muted">
   <div class="max-w-6xl mx-auto">
-    <div>
-      <h2 class="text-4xl md:text-5xl lg:text-6xl mb-4 text-left">Projects</h2>
+    <div class="text-center md:text-left">
+      <h2 class="text-4xl md:text-5xl lg:text-6xl mb-4">Projects</h2>
       <p class="text-muted-foreground mb-8 max-w-2xl text-lg md:text-xl">
         A showcase of my projects
       </p>
