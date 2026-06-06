@@ -15,7 +15,7 @@
 <article
   class="group relative flex flex-col h-full overflow-hidden rounded-xl border border-background bg-background text-card-foreground transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-[0_0_30px_rgba(129,140,248,0.15)]">
   <div
-    class="relative aspect-video w-full overflow-hidden bg-background flex items-center justify-center">
+    class="relative aspect-4/3 w-full overflow-hidden bg-background flex items-center justify-center">
     {#if project.imageUrl && !imageFailed}
       <img
         src={project.imageUrl}
