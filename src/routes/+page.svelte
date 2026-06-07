@@ -1,5 +1,6 @@
 <script lang="ts">
   import About from "$lib/components/about/About.svelte";
+  import Contact from "$lib/components/contact/ContactSection.svelte";
   import Footer from "$lib/components/footer/Footer.svelte";
   import Header from "$lib/components/header/Header.svelte";
   import Hero from "$lib/components/hero/Hero.svelte";
@@ -22,5 +23,6 @@
   <About />
   <Technologies />
   <Projects projects={data.projects} />
+  <Contact />
   <Footer />
 </div>
