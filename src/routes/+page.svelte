@@ -22,7 +22,7 @@
 
   <About />
   <Technologies />
-  <Projects projects={data.projects} />
+  <Projects projects={data.projects} fetchedAt={data.fetchedAt} />
   <Contact />
   <Footer />
 </div>

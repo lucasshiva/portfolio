@@ -5,19 +5,28 @@
 
   type Props = {
     projects: Project[];
+    fetchedAt: Date;
   };
 
-  let { projects }: Props = $props();
+  let { projects, fetchedAt }: Props = $props();
+  let dateString = $derived(
+    fetchedAt.toLocaleString("en-US", { dateStyle: "long", timeStyle: "medium" }),
+  );
 </script>
 
 <section id="projects" class="py-24 px-6 bg-muted">
   <div class="max-w-6xl mx-auto">
     <div class="text-center md:text-left">
       <h2 class="text-4xl md:text-5xl lg:text-6xl mb-4">Projects</h2>
-      <div class="flex items-center justify-center md:justify-start gap-2 mb-8">
-        <IconInfo class="text-primary" />
-        <p class="text-muted-foreground max-w-2xl text-base md:text-lg">
-          Projects are automatically populated using GitHub's API.
+      <div class="flex flex-col p-2 lg:flex-row md:justify-between mb-6">
+        <div class="flex items-center justify-center md:justify-start gap-2">
+          <IconInfo class="text-primary" />
+          <p class="max-w-2xl text-base md:text-lg">
+            Projects are automatically populated using GitHub's API.
+          </p>
+        </div>
+        <p class="text-muted-foreground">
+          Last fetched {dateString}
         </p>
       </div>
     </div>
