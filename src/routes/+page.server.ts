@@ -25,7 +25,7 @@ export const load: PageServerLoad = async (): Promise<Payload> => {
   if (!dev) {
     const hasExpired = Date.now() > expiresAt;
     if (cached !== null && !hasExpired) {
-      console.log("Returning cached projects:", cached);
+      console.log("Returning cached projects:", JSON.stringify(cached));
       return cached;
     }
   }
@@ -35,7 +35,7 @@ export const load: PageServerLoad = async (): Promise<Payload> => {
     projects,
     fetchedAt: new Date(),
   };
-  console.log(`Fetched data: ${payload}`);
+  console.log(`Fetched data: ${JSON.stringify(payload)}`);
   cached = payload;
   expiresAt = Date.now() + TTL;
   return payload;
