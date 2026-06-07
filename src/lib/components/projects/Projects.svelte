@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Project } from "$lib/types";
   import IconInfo from "~icons/lucide/info";
+  import IconX from "~icons/lucide/x";
   import ProjectCard from "./ProjectCard.svelte";
 
   type Props = {
@@ -41,22 +42,9 @@
       </div>
     {:else}
       <div
-        class="flex flex-col items-center justify-center p-16 text-center border-2 border-dashed border-muted rounded-2xl bg-card/30">
-        <div class="bg-muted p-4 rounded-full mb-4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="text-muted-foreground">
-            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
+        class="flex flex-col items-center justify-center p-20 mt-12 text-center border border-primary/40 rounded-2xl">
+        <div class="bg-background p-4 rounded-full mb-4">
+          <IconX class="size-6" />
         </div>
         <h3 class="text-xl font-bold text-foreground mb-2">No projects found!</h3>
         <p class="text-muted-foreground max-w-md">
