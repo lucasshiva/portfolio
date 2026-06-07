@@ -12,7 +12,7 @@
   let primaryUrl = $derived(project.url || project.source);
 </script>
 
-<div class="flex flex-1 flex-col p-5 md:p-6">
+<div class="flex flex-1 flex-col p-5 md:p-6 group-hover:bg-black transition-colors duration-300">
   <div class="flex justify-between items-center">
     <h3
       class="text-xl font-bold tracking-tight text-foreground transition-colors duration-300 group-hover:text-primary">

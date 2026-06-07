@@ -14,7 +14,7 @@
   );
 </script>
 
-<section id="projects" class="py-24 px-6 bg-muted">
+<section id="projects" class="py-24 px-2 md:px-4 lg:px-6 bg-muted">
   <div class="max-w-6xl mx-auto">
     <div class="text-center md:text-left">
       <h2 class="text-4xl md:text-5xl lg:text-6xl mb-4">Projects</h2>
