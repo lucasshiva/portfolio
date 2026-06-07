@@ -17,7 +17,7 @@
     <h3
       class="text-xl font-bold tracking-tight text-foreground transition-colors duration-300 group-hover:text-primary">
       <!-- The stretched link: covers the entire card via after: pseudo-element -->
-      <a href={primaryUrl} class="after:absolute after:inset-0 after:z-0">
+      <a href={primaryUrl} target="_blank" class="after:absolute after:inset-0 after:z-0">
         {project.title}
       </a>
     </h3>
