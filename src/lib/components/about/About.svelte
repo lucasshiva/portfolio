@@ -29,7 +29,7 @@
           gradually became a deeper interest in software engineering.
         </p>
 
-        <p class="text-lg md:text-2xl leading-relaxed font-light">
+        <p class="text-xl md:text-2xl leading-relaxed font-light">
           Since 2021, I've been actively building projects, strengthening my understanding of
           software design and architecture, and exploring tons of different technologies.
         </p>
