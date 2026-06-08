@@ -24,21 +24,25 @@
         </p>
 
         <p class="text-xl md:text-2xl leading-relaxed font-light">
-          I've been coding since 2018, mostly as a hobby, and in 2022 I began pursuing development
-          professionally — building real projects, going deeper into the fundamentals, and exploring
-          different technologies.
+          My journey began in 2018 as a hobby. What started as small scripts and automation projects
+          gradually became a deeper interest in software engineering.
+        </p>
+
+        <p class="text-lg md:text-2xl leading-relaxed font-light">
+          Since 2021, I've been actively building projects, strengthening my understanding of
+          software design and architecture, and exploring tons of different technologies.
         </p>
 
         <p class="text-xl md:text-2xl leading-relaxed font-light">
-          Recently, I've been interested in back-end development (C# and Java/Kotlin), full-stack
-          development (mostly with Vue.js and Blazor on the frontend), and mobile development with
-          Flutter and Kotlin.
+          Today, my interests span backend development, full-stack development, mobile applications,
+          and game dev, with my most liked technologies being C#, Kotlin, Flutter, and Vue.js.
         </p>
 
         <p class="text-xl md:text-2xl leading-relaxed font-light">
-          In my free time, I enjoy reading fantasy novels, gaming, and experimenting with
-          technology. Whether it's trying out a new framework, exploring a different programming
-          language, or refining my Linux setup, I'm always looking for something new to learn.
+          Outside of programming, I enjoy reading fantasy novels, gaming, and exploring technology
+          in general. Whether I'm trying a new framework, learning a language, or customizing my
+          Linux setup, I'm always looking for opportunities to learn something new and expand my
+          skills.
         </p>
       </div>
     </div>
