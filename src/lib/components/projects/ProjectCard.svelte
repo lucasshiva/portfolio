@@ -11,7 +11,7 @@
 </script>
 
 <div
-  class="project group relative flex flex-col transition-all duration-300 hover:-translate-y-1 bg-background rounded-2xl border border-card hover:border-primary/60 overflow-hidden">
+  class="project group relative flex flex-col transition-all duration-300 hover:-translate-y-1 bg-background rounded-2xl border border-card hover:border-primary/60 overflow-hidden lg:min-h-120">
   <ProjectCardImage url={project.imageUrl} alt={project.title} />
   <ProjectCardBody {project} />
 </div>

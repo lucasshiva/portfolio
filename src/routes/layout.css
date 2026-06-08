@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/space-grotesk";
+@import "@fontsource-variable/jetbrains-mono";
 @plugin '@tailwindcss/typography';
 
 /* Placeholder colors - generated from tweakcn.com */
@@ -22,4 +25,8 @@
   --color-muted-foreground: var(--color-muted-foreground);
   --color-card: var(--color-card);
   --color-card-foreground: var(--color-card-foreground);
+
+  --font-serif: "Space Grotesk", serif;
+  --font-sans: "Geist", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }

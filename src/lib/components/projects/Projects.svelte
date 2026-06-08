@@ -15,10 +15,10 @@
   );
 </script>
 
-<section id="projects" class="py-24 px-2 md:px-4 lg:px-6 bg-muted">
+<section id="projects" class="py-24 px-2 md:px-8 lg:px-6 bg-muted">
   <div class="max-w-6xl mx-auto">
     <div class="text-center md:text-left">
-      <h2 class="text-4xl md:text-5xl lg:text-6xl mb-4">Projects</h2>
+      <h2 class="text-5xl md:text-6xl lg:text-[68px] mb-4 font-serif">Projects</h2>
       <div class="flex flex-col p-2 lg:flex-row md:justify-between mb-6">
         <div class="flex items-center justify-center md:justify-start gap-2">
           <IconInfo class="text-primary" />
@@ -32,9 +32,9 @@
       </div>
     </div>
     {#if projects !== undefined && projects.length >= 1}
-      <div class="projects">
+      <div class="projects font-mono">
         <div
-          class="grid md:grid-cols-2 lg:grid-cols-3 max-w-sm sm:max-w-lg md:max-w-full mx-auto gap-10 mb-12 px-12 md:px-8 lg:px-0 py-8">
+          class="grid md:grid-cols-2 lg:grid-cols-3 max-w-sm sm:max-w-lg md:max-w-full mx-auto gap-6 mb-12 px-12 md:px-8 lg:px-0 py-8">
           {#each projects as project}
             <ProjectCard {project} />
           {/each}

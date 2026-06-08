@@ -31,11 +31,11 @@
   class="py-20 md:py-26 lg:py-32 px-4 md:px-8 w-full bg-background text-foreground">
   <div class="max-w-6xl mx-auto flex flex-col gap-10 md:gap-20">
     <h2
-      class="text-5xl md:text-6xl lg:text-[68px] text-center md:text-left leading-none mb-10 md:mb-5">
+      class="text-5xl md:text-6xl lg:text-[68px] text-center md:text-left leading-none mb-10 md:mb-5 font-serif">
       Technologies
     </h2>
 
-    <div class="flex flex-wrap mx-10 justify-center gap-8 md:gap-12 lg:gap-16">
+    <div class="flex flex-wrap mx-10 justify-center gap-8 md:gap-12 lg:gap-16 font-mono">
       {#each technologies as { name, icon: Icon }}
         <div class="flex flex-col gap-3 items-center group">
           <Icon

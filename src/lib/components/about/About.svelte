@@ -4,13 +4,14 @@
 
 <section id="about" class="py-20 px-4 md:px-8 w-full bg-muted text-foreground">
   <div class="max-w-6xl mx-auto flex flex-col gap-10 md:gap-20">
-    <h2 class="text-5xl md:text-6xl lg:text-[68px] text-center md:text-left leading-none">
+    <h2
+      class="text-5xl md:text-6xl lg:text-[68px] text-center md:text-left leading-none font-serif">
       About Me
     </h2>
     <div class="grid md:grid-cols-3 items-center md:items-start mb-16">
       <div class="flex flex-col gap-1 items-center md:items-start">
         <img src="./me.png" alt="Me" class="size-80 object-cover object-top rounded-2xl" />
-        <h3 class="font-bold mt-4 text-xl md:text-2xl">Lucas Cavalcante da Silva</h3>
+        <h3 class="font-bold mt-4 text-xl md:text-2xl font-serif">Lucas Cavalcante da Silva</h3>
         <p class="font-light text-lg md:text-xl">Software Developer</p>
         <div class="flex gap-2 items-center">
           <IconBrazil />
@@ -35,7 +36,9 @@
 
         <p class="text-xl md:text-2xl leading-relaxed font-light">
           Today, my interests span backend development, full-stack development, mobile applications,
-          and game dev, with my most liked technologies being C#, Kotlin, Flutter, and Vue.js.
+          and game dev, with my most liked technologies being <span class="font-mono">C#</span>,
+          <span class="font-mono">Kotlin</span>, <span class="font-mono">Flutter</span>, and
+          <span class="font-mono">Vue.js</span>.
         </p>
 
         <p class="text-xl md:text-2xl leading-relaxed font-light">

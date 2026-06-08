@@ -3,7 +3,7 @@
   import MobileNav from "./MobileNav.svelte";
 </script>
 
-<header class="w-full border-b border-card">
+<header class="w-full border-b border-card font-mono">
   <DesktopNav class="hidden md:flex" />
   <MobileNav class="md:hidden" />
 </header>

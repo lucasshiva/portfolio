@@ -9,10 +9,10 @@
   const emailUrl = "mailto:silva.lucasdev@gmail.com";
 </script>
 
-<section id="contact" class="py-24 px-8">
+<section id="contact" class="py-24 px-8 font-mono">
   <div class="max-w-4xl mx-auto text-center">
     <div>
-      <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+      <h2 class="text-4xl font-bold mb-6 font-serif">Let's Connect</h2>
       <p class="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
         I'm actively seeking opportunities in software development. Let's discuss how my technical
         expertise can contribute to your team.

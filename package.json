@@ -16,6 +16,9 @@
     "fmt:check": "oxfmt --check"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "^5.2.9",
+    "@fontsource-variable/jetbrains-mono": "^5.2.8",
+    "@fontsource-variable/space-grotesk": "^5.2.10",
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {

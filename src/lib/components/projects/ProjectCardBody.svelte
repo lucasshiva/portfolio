@@ -12,10 +12,11 @@
   let primaryUrl = $derived(project.url || project.source);
 </script>
 
-<div class="flex flex-1 flex-col p-5 md:p-6 group-hover:bg-black transition-colors duration-300">
+<div
+  class="flex flex-1 flex-col p-5 md:p-6 group-hover:bg-black/40 bg-black/90 transition-colors duration-300">
   <div class="flex justify-between items-center">
     <h3
-      class="text-xl font-bold tracking-tight text-foreground transition-colors duration-300 group-hover:text-primary">
+      class="text-base md:text-lg lg:text-xl font-medium tracking-tight text-foreground transition-colors duration-300 group-hover:text-primary">
       <!-- The stretched link: covers the entire card via after: pseudo-element -->
       <a href={primaryUrl} target="_blank" class="after:absolute after:inset-0 after:z-0">
         {project.title}
@@ -31,7 +32,7 @@
   </div>
 
   <p
-    class="mt-2.5 text-sm md:text-base lg:text-lg leading-relaxed text-muted-foreground line-clamp-2 md:line-clamp-3 lg:line-clamp-4">
+    class="mt-2.5 text-sm md:text-base leading-relaxed text-muted-foreground line-clamp-2 md:line-clamp-3 lg:line-clamp-4">
     {project.description}
   </p>
 
