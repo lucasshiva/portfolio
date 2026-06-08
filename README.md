@@ -1,42 +1,76 @@
-# sv
+# Lucas Silva - Portfolio Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+![hero screenshot](./screenshots/hero.png)
 
-## Creating a project
+This project is my personal portfolio, designed to showcase my projects and skills.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech Stack
+- **Framework**: Sveltekit
+- **UI**: Svelte
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Iconify
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Getting Started (Local Development)
 
-To recreate this project with the same configuration:
+The project uses `pnpm` as the package manager.
 
-```sh
-# recreate this project
-pnpm dlx sv@0.15.3 create --template minimal --types ts --add tailwind="plugins:typography" --install pnpm portfolio
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Install
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm run install
 ```
 
-## Building
-
-To create a production version of your app:
+### Run
 
 ```sh
-npm run build
+pnpm run dev
 ```
 
-You can preview the production build with `npm run preview`.
+Open http://localhost:5173.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+We can also run it via `Docker`:
+
+```sh
+docker compose up -d --build
+```
+
+Then, open http://localhost:3000.
+
+
+### Build
+
+To create a production version of the app:
+
+```sh
+pnpm run build
+```
+
+We can preview the production build with `pnpm run preview`.
+
+### Lint/Format
+We're using [oxc](https://oxc.rs/) for linting and formating.
+
+In order to format the code, we can run the following:
+
+```sh
+pnpm run fmt:check
+pnpm run fmt
+```
+
+As for linting, we follow a similar pattern:
+
+```sh
+pnpm run lint
+pnpm run lint:fix
+```
+
+Additionally, we use the `oxc` extension on `VS Code` to format code on save.
+
+## Deployment
+This project is manually deployed on a VPS, using `@sveltejs/node-adapter`. A `Dockerfile` and a `docker-compose.yaml` file are provided.
+
+The portfolio is live at https://lucasshiva.tech.
+
+## License
+This project is licensed under MIT, meaning that you're free to use, modify, sell, or redistribute the source code as long as you keep the copyright notice.
