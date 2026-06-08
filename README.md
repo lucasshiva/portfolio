@@ -68,7 +68,7 @@ pnpm run lint:fix
 Additionally, we use the `oxc` extension on `VS Code` to format code on save.
 
 ## Deployment
-This project is manually deployed on a VPS, using `@sveltejs/node-adapter`. A `Dockerfile` and a `docker-compose.yaml` file are provided.
+This project is manually deployed on a VPS, using `@sveltejs/node-adapter`. A `Dockerfile` and a `docker-compose.yml` file are provided.
 
 The portfolio is live at https://lucasshiva.tech.
 
